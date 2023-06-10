@@ -10,6 +10,8 @@ from kivymd.uix.selectioncontrol import MDCheckbox
 from kivymd.uix.label import MDLabel
 
 MAX_FAVORITES = 5
+
+# Replace API_KEY with your OpenWeatherMap API key
 API_KEY = "ae27d7f299bdcecf3944226af304831d"
 
 KV = """
@@ -279,7 +281,7 @@ class WeatherApp(MDApp):
         else:
             menu_items = [
                 {
-                    "text": f"Add city to favorite!",
+                    "text": f"First, add city to favorite!",
                     "viewclass": "OneLineListItem",
                 }
             ]
