@@ -1,5 +1,8 @@
 # Mobile Weather App
 
+Sprawozdanie i dokumentacja zostało napisane przy użyciu języka znaczników Markdown, a następnie zostało zapisane do formatu PDF
+Cały projekt jak i sprawozdanie z dokumentacją mozna znaleźć pod [linkiem na moim profilu GH](https://github.com/Majkel97/Weather_mobile_app/tree/master)
+
 ## Spis treści
 
 1.  [Sprawozdanie](#sprawozdanie)
