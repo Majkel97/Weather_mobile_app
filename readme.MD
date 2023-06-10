@@ -7,16 +7,16 @@ Cały projekt jak i sprawozdanie z dokumentacją mozna znaleźć pod [linkiem na
 
 1.  [Sprawozdanie](#sprawozdanie)
 
-- [Instalacja](#instalacja)
-- [Uruchomienie aplikacji](#uruchomienie-aplikacji)
-- [Utworzenie pakietu instalacyjnego dla środowiska Android](#utworzenie-pakietu-instalacyjnego-dla-środowiska-android)
-
-2.  [Dokumentacja techniczna](#dokumentacja-techniczna)
-
 - [Cele i wymagania](#cele-i-wymagania)
 - [Wykorzystane narzędzia](#wykorzystane-narzędzia)
 - [Zobrazowanie działania aplikacji](#zobrazowanie-działania-aplikacji)
 - [Podsumowanie ](#podsumowanie)
+
+2.  [Dokumentacja techniczna](#dokumentacja-techniczna)
+
+- [Instalacja](#instalacja)
+- [Uruchomienie aplikacji](#uruchomienie-aplikacji)
+- [Utworzenie pakietu instalacyjnego dla środowiska Android](#utworzenie-pakietu-instalacyjnego-dla-środowiska-android)
 
 # Sprawozdanie
 
