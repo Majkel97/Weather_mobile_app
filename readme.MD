@@ -1,10 +1,87 @@
-# Mobile Weather App - Dokumentacja techniczna
+# Mobile Weather App
 
 ## Spis treści
 
-1.  [Instalacja](#instalacja)
-2.  [Uruchomienie aplikacji](#uruchomienie-aplikacji)
-3.  [Utworzenie pakietu instalacyjnego dla środowiska Android](#utworzenie-pakietu-instalacyjnego-dla-środowiska-android)
+1.  [Sprawozdanie](#sprawozdanie)
+
+- [Instalacja](#instalacja)
+- [Uruchomienie aplikacji](#uruchomienie-aplikacji)
+- [Utworzenie pakietu instalacyjnego dla środowiska Android](#utworzenie-pakietu-instalacyjnego-dla-środowiska-android)
+
+2.  [Dokumentacja techniczna](#dokumentacja-techniczna)
+
+- [Cele i wymagania](#cele-i-wymagania)
+- [Wykorzystane narzędzia](#wykorzystane-narzędzia)
+- [Zobrazowanie działania aplikacji](#zobrazowanie-działania-aplikacji)
+- [Podsumowanie ](#podsumowanie)
+
+# Sprawozdanie
+
+## Cele i wymagania
+
+1.  Aplikacja powinna być napisana do uruchomienia w środowisku mobilnym Android.
+2.  Użytkownik powinien mieć możliwość sprawdzenia pogody aktualnej oraz na kilka dni do przodu.
+3.  Użytkownik musi mieć możliwość wyszukiwania pogody dla wybranego przez siebie miasta.
+4.  Aplikacja powinna pokazać podstawowe dane o pogodzie na obecny dzień takie jak:
+    - Temperatura
+    - Warunki pogodowe
+    - Wilgotność powietrza
+    - Prędkość i kierunek wiatru
+    - Ciśnienie atmosferyczne
+5.  Poza danymi z punktu 4 aplikacja powinna pokazać warunki pogodowe, temperaturę i datę na 3 kolejne dni.
+6.  Użytkownik powinien mieć możliwość zapisania oraz usuwania wyszukiwanych miast w pamięci aplikacji, aby łatwo i szybko przełączać widoki dla innych lokalizacji - maksymalnie 5 zapisanych miast.
+
+## Wykorzystane narzędzia
+
+1. [Język programowania Python](https://www.python.org/)
+   Python to język programowania wysokiego poziomu ogólnego przeznaczenia, o rozbudowanym pakiecie bibliotek standardowych, którego ideą przewodnią jest czytelność i klarowność kodu źródłowego. Jego składnia cechuje się przejrzystością i zwięzłością.
+2. [Framework Kivy](https://kivy.org/)
+   Kivy to bezpłatna i otwarta platforma Python do tworzenia aplikacji mobilnych i innego oprogramowania aplikacji wielodotykowych z naturalnym interfejsem użytkownika. Jest rozpowszechniany na warunkach licencji MIT i może działać na systemach Android, iOS, Linux, macOS i Windows.
+3. [Pakiet komponentów KivyMD](https://kivymd.readthedocs.io/en/1.1.1/)
+   Jest zbiorem widżetów (Material Designs) do użytku z Kivy i innymi frameworkami aplikacji graficznych obsługujących dotyk.
+4. [OpenWeatherMap API](https://openweathermap.org/api)
+   OpenWeather to portal udostępniający dla każdego punktu na kuli ziemskiej historyczne, bieżące i prognozowane dane pogodowe za pośrednictwem interfejsów API. Posiada płatne i darmowe pakiety.
+5. [Buildozer](https://buildozer.readthedocs.io/en/latest/)
+   Buildozer to narzędzie, które ma na celu łatwe tworzenia pakietów aplikacji mobilnych. Automatyzuje cały proces kompilacji, pobiera wymagania wstępne, takie jak python-for-android, Android SDK, NDK itp. Buildozer zarządza plikiem o nazwie buildozer.spec w katalogu aplikacji, opisując wymagania i ustawienia aplikacji, takie jak tytuł, ikona, dołączone moduły itp. Użyje pliku specyfikacji do stworzenia pakietu dla Androida, iOS i innych.
+
+## Zobrazowanie działania aplikacji
+
+1. Widok ekranu głównego po instalacji aplikacji.
+
+<img src="https://github.com/Majkel97/Weather_mobile_app/blob/master/images/1.%20Widok%20ekranu%20g%C5%82%C3%B3wnego%20po%20instalacji%20aplikacji.png?raw=true"  width="200px" height="400px">
+
+2. Widok z ładowania aplikacji i po pierwszym uruchomieniu.
+
+<img src="https://github.com/Majkel97/Weather_mobile_app/blob/master/images/2.%20Widok%20z%20%C5%82adowania%20aplikacji.png?raw=true"  width="200px" height="400px">
+<img src="https://github.com/Majkel97/Weather_mobile_app/blob/master/images/2.%20Widok%20po%20pierwszym%20uruchomieniu.png?raw=true"  width="200px" height="400px">
+
+3. Widok kompletnych danych pogodowych dla wybranego miasta.
+
+<img src="https://github.com/Majkel97/Weather_mobile_app/blob/master/images/3.%20Widok%20kompletnych%20danych%20pogodowych%20dla%20wybranego%20miasta.png?raw=true"  width="200px" height="400px">
+
+4. Widok wyszukiwania miasta.
+
+<img src="https://github.com/Majkel97/Weather_mobile_app/blob/master/images/4.%20Widok%20wyszukiwania%20miasta.png?raw=true"  width="200px" height="400px">
+
+5. Widok listy zapisanych miast.
+
+<img src="https://github.com/Majkel97/Weather_mobile_app/blob/master/images/5.%20Widok%20listy%20zapisanych%20miast.png?raw=true"  width="200px" height="400px">
+
+6. Widok listy zapisanych miast z opcją usuwania.
+
+<img src="https://github.com/Majkel97/Weather_mobile_app/blob/master/images/6.%20Widok%20listy%20zapisanych%20miast%20z%20opcj%C4%85%20usuwania.png?raw=true"  width="200px" height="400px">
+
+## Podsumowanie
+
+Projekt został wykonany zgodnie z założeniami zawartymi na początku dokumentu z małym wyjątkiem - zamiast pokazania pogody na kilka dni do przodu, pokazano informacje pogodowe na za 3,6 oraz 9 godzin. Ma to związek z limitami darmowego API od OpenWeatherMap, które zostało wykorzystane w tej aplikacji.
+
+Projekt stanowi dobrą bazę do rozbudowania aplikacji o kolejne funkcjonalności takie jak na przykład pokazanie danych godzinowych, historycznych, wyświetlenia danych na wykresach czy tworzenie widgetów na ekran główny telefonu.
+
+Dzięki wykorzystaniu KivyMD, do aplikacji można dodawać w łatwy sposób gotowe komponenty, które można dostosować do swoich potrzeb bez konieczności tworzenia modułów od podstaw.
+
+Aplikacja została uruchomiona i testowana przy użyciu telefonu Xiomi Mi 10T Pro z systemem Android w wersji 10 QKQ1.200419.002 oraz przy użyciu emulatora systemu Android o nazwie BlueStacks X.
+
+# Dokumentacja techniczna
 
 ## Instalacja
 
