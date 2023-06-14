@@ -4,16 +4,16 @@
 
 1.  [Sprawozdanie](#sprawozdanie)
 
-- [Cele i wymagania](#cele-i-wymagania)
-- [Wykorzystane narzędzia](#wykorzystane-narzędzia)
-- [Zobrazowanie działania aplikacji](#zobrazowanie-działania-aplikacji)
-- [Podsumowanie ](#podsumowanie)
+    - [Cele i wymagania](#cele-i-wymagania)
+    - [Wykorzystane narzędzia](#wykorzystane-narzędzia)
+    - [Zobrazowanie działania aplikacji](#zobrazowanie-działania-aplikacji)
+    - [Podsumowanie ](#podsumowanie)
 
 2.  [Dokumentacja techniczna](#dokumentacja-techniczna)
 
-- [Instalacja](#instalacja)
-- [Uruchomienie aplikacji](#uruchomienie-aplikacji)
-- [Utworzenie pakietu instalacyjnego dla środowiska Android](#utworzenie-pakietu-instalacyjnego-dla-środowiska-android)
+    - [Instalacja](#instalacja)
+    - [Uruchomienie aplikacji](#uruchomienie-aplikacji)
+    - [Utworzenie pakietu instalacyjnego dla środowiska Android](#utworzenie-pakietu-instalacyjnego-dla-środowiska-android)
 
 # Sprawozdanie
 
